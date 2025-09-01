@@ -2,6 +2,13 @@
 
 A hardware dashboard that replays Formula 1 telemetry on real devices. Speed, gear, brake, throttle, flags, DRS, lap timer, delta, RPM, and live position are rendered on inexpensive modules driven by an Arduino. Python fetches and paces data, then streams a compact CSV protocol over serial.
 
+Proccess to Run
+  1. Complete the wiring config as seen in the Pin Map below for all modules
+  2. Verify and Upload arduino code onto microproccessor using Arduino IDE
+  3. Check which COM the arduio is connected to on the PC/Laptop and make change on config within telemetry.py File
+  4. Edit any F1 session (Race, Quali, Free Practice), driver and starting lap within telemetry.py File
+  5. Run the python file
+
 **Features**
 
 Speed on TM1637 4-digit module
