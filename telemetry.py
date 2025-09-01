@@ -7,8 +7,8 @@ import fastf1
 YEAR       = 2025
 EVENT_NAME = "austria"     # FastF1 resolves actual GP name
 SESSION    = "R"           # "R" (Race), "Q" (Quali), etc.
-DRIVER     = "PIA"         # three-letter code
-START_LAP  = 8
+DRIVER     = "NOR"         # three-letter code
+START_LAP  = 1
 NUM_LAPS   = None          # None = all laps from START_LAP
 
 # Serial config
