@@ -1,5 +1,7 @@
 **Telemetry Display: Arduino + FastF1/OpenF1**
 
+Youtube: https://www.youtube.com/watch?v=M7RISMOZyZE
+
 A hardware dashboard that replays Formula 1 telemetry on real devices. Speed, gear, brake, throttle, flags, DRS, lap timer, delta, RPM, and live position are rendered on inexpensive modules driven by an Arduino. Python fetches and paces data, then streams a compact CSV protocol over serial.
 
 Proccess to Run
